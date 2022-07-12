@@ -1,0 +1,29 @@
+
+<%= form_with(model: login) do |form| %>
+  <% if login.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(login.errors.count, "error") %> prohibited this login from being saved:</h2>
+
+      <ul>
+        <% login.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+<div id="form">
+  <div  >
+    <%= form.label :username, style: "display: block"  ,class: "formuser" %>
+    <%= form.text_field :username , style: "margin-left:47%; margin-top:-7px;" %>
+  </div>
+
+  <div>
+    <%= form.label :password, style: "display: block" ,class: "formuser"%>
+    <%= form.text_field :password , style: "margin-left:47% ; margin-top:-7px;"%>
+  </div>
+
+  <div>
+    <%= form.submit id:"button" %>
+  </div>
+  </div>
+<% end %>

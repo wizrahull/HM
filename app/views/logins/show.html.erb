@@ -1,0 +1,11 @@
+<p style="color: green"><%= notice %></p>
+<div id="show">
+<%= render @login %>
+<%render @xy%>
+<div>
+  <%= link_to "Edit this login", edit_login_path(@login) %> 
+  <%= link_to "Back to logins"%>
+  <div style="color:red;">
+  <%= button_to "Destroy this login", @login, method: :delete %></div>
+</div>
+</div>

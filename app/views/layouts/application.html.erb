@@ -1,0 +1,78 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title style="font-family:brush script mt;">H&M</title>
+    <link rel="icon" href="icon.jpg">
+    <%= stylesheet_link_tag "application"  %>
+    
+     <script src="java.js" ></script>
+</head>
+<body>
+    <div id="logo">
+     <%= image_tag "favicon.png" ,class: "logo",id: "logo"%></div> 
+    <%#  <img id="logo" src="logo.png"> %>
+    <p id="tagline" ><%= link_to "The makers of happy and merry" , new_login_path%></p>
+    
+   <div id="login">
+   <%=link_to "LOGIN" , new_login_path%>
+      <%=link_to "HOME" ,@login%>
+    </div>
+    <hr>
+
+    <div id="menu" ><UL ID="QQ">
+        <DIV > </DIV><LI ID="Q6">MENS</LI>
+        <LI ID="Q6">WOMEN</LI>
+        <LI ID="Q6">BOYS</LI>
+        <LI ID="Q6">GIRLS</LI>
+        <LI ID="Q6">ACCESSORIES</LI>
+        <LI ID="Q6">TREND</LI>
+        <LI ID="Q6">NEWEST ARRIVAL</LI></DIV>
+
+        <br>
+
+
+        <%=yield%>
+
+
+        <br>
+        <br>
+           <%= image_tag "1.jpg" ,height: "70%"  ,style:"margin-left:23%"%>
+            <!-- <img src="2.jpg" style="width:100%">
+            # <img src="3.jpg" style="width:100%">
+            #  -->
+             <br><br><br>
+            <%# <button id="xx" onclick="switchx()"><img  id="image1" src="1.jpg" class="center" style="  width:70%"></button> %>
+   
+            <%# <%= button_tag image_tag "1.jpg" , link_to 'switchx()'%> %>
+        </body>
+
+<footer id="footerx">
+     
+    <ul>SHOP 
+        
+      <li>Ladies</li>
+      <li>Men</li>
+      <li>BAby</li>
+      <li>Kids</li>
+    </ul>
+    <ul>SHOP 
+       
+      <li>Ladies</li>
+      <li>Men</li>
+      <li>BAby</li>
+      <li>Kids</li>
+    </ul>
+    <ul>SHOP 
+        
+      <li>Ladies</li>
+      <li>Men</li>
+      <li>BAby</li>
+      <li>Kids</li>
+    </ul>
+    
+</footer>
+</html>

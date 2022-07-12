@@ -1,0 +1,210 @@
+@media only screen and (max-width:600px ){
+    #tagline{
+        font-family:copper plate;
+        letter-spacing: 2px;
+         font-size: small;
+        text-align: center;
+        margin-top: -30px;
+        color:red; 
+        /*  */
+
+
+    }
+    .logo{
+        width:20px;
+    }
+    #Q6{
+        display: block;
+        width:35%;
+        text-align: center;
+        padding:1%;
+    }
+    
+}
+
+
+/* *{
+    background-image:url(1.jpg);
+} */
+
+:hover{
+    color:black;
+    cursor: pointer;
+}
+.logo{
+    width:59px;
+    margin-top:1%;
+    margin-left:3%;
+}
+#tagline{
+    font-family:copper plate;
+    letter-spacing: 2px;
+    font-weight:100;
+    text-align: center;
+    margin-top: -30px;
+    color:red;
+}
+#Q6{
+    text-align:center;
+    list-style-type: none;
+    display: inline-block;
+    margin:1%;
+    padding:1%;
+    color:red;
+    background-color:rgba;
+    
+}
+::selection{
+    background-color: rgba(1,1,1,0.1);
+    color:red;
+}
+#menu{
+    text-align: right;
+    
+    
+
+}
+
+button{
+  
+   border-width: 0px;
+   cursor:pointer;
+   padding:0px;
+   background-color:white;
+   
+}
+.center {
+    
+    box-shadow: 10px 10px 30px 1px;
+    transition-timing-function: ease-in-out;
+  }
+  .center:hover{
+      transform: scale(1.1);
+      transition-duration: 1s;
+      transition-timing-function:ease-in-out;
+  }
+
+#Q6:hover{
+    background-color: rgba(251, 24, 7, 1);
+    padding:1%;
+    color:white;
+    cursor:default;
+}
+
+#login{
+   text-align: right;   
+   margin-left:70%;
+   
+}
+
+a{
+    color:rgba(255, 0, 0, 0.766);
+    text-decoration: none;
+    padding:1%;
+}
+
+#footerx{
+    background-color: rgba(1, 1, 1, 0.1);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding:10%;
+    
+}
+
+
+input:target{
+    border:none;
+}
+input{
+    border:none;
+    padding:3px;
+    outline:none;
+    border-bottom: red solid 1px;
+}
+#form{
+    margin-top: 5%;
+    margin-left:20%;
+    margin-right: 20%;
+    padding-top: 4%;
+    width: 60%;
+    box-shadow:10px 10px 22px rgb(30, 19, 19) ;
+}
+#form:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+#form.label{
+    text-align: center;
+}
+#button{
+    margin-left: 50% ;
+    margin-top:3%;
+    margin-bottom: 3%;
+    background-color:red;
+    color:white;
+    border-radius: 21px;
+    padding:6px;
+    border-color:white;
+}
+#button:hover{
+    cursor:pointer;
+}
+.formuser{
+            margin-left:30%;
+            margin-top:10%;
+            font-family: Lucida Console;
+            color:red;
+}
+
+
+#logins{
+    /* margin-left:20%; */
+    /* display: inline-flex; */
+    padding: 5%;
+ 
+}
+table{
+    border: 1px solid black;
+    margin-left: 38%;
+}
+th{
+    border:1px solid black;
+
+}
+
+
+/* show===================================== */
+#show{
+    /* margin-left: 20%; */
+    box-shadow:10px 10px 22px rgb(30, 19, 19) ;
+    text-align: center;
+    width:40%;
+    margin-left: 32%;
+
+}
+
+button {
+    color:red;
+}
+#edit{
+    /* margin-left: 20%; */
+    box-shadow:10px 10px 22px rgb(30, 19, 19) ;
+    margin-left: 37%;
+    text-align: center;
+    width:30%;
+    /* padding:2%; */
+
+
+}
+#edit:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+    
+}
+
+#index{box-shadow:10px 10px 22px rgb(30, 19, 19) ;
+    margin-left: 37%;
+    text-align: center;
+    width:30%;
+    /* padding:2%; */
+}

@@ -1,0 +1,78 @@
+@media only screen and  (max-width:1000px){
+    *{ margin-top: 10%;
+    font-size:small;
+   } 
+   img{
+    width: 20%;
+    margin-left:25%;
+   }
+   
+
+      
+
+ 
+   #card{
+   margin-top: 10%;
+   display: block;
+   
+  }
+  #userid{
+   margin-left:-18px;
+   font-size: smaller;
+   }
+
+   input{
+   font-size: smaller;
+   margin-left: -5px;
+
+   }
+   
+
+}
+img{
+   transform: translate(90%,40%);
+   margin-bottom:4%;
+   
+}
+#card{
+   margin-top: 7%;
+   margin-left:20%;
+   margin-right: 20%;
+   box-shadow:10px 10px 22px rgb(30, 19, 19) ;
+   
+}
+#card:hover{
+   transform: scale(1.01);
+   transition-duration:1s;
+}
+#userid{
+   margin-left:35%;
+   margin-top:10%;
+   font-family: Lucida Console;
+   color:red;
+  
+}
+input{
+     border:none;
+     outline:none;
+     border-bottom: red solid 1px;
+}
+input:target{
+   border:none;
+}
+.labelx{
+   letter-spacing: 2px;
+ 
+
+}
+
+#submitx{
+ margin-left: 56% ;
+ margin-top:3%;
+ margin-bottom: 3%;
+ background-color:red;
+ color:white;
+ border-radius: 21px;
+ padding:6px;
+ border-color:white;
+}

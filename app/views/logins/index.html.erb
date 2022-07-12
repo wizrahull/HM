@@ -1,0 +1,27 @@
+<p style="color: green"><%= notice %></p>
+
+<h1 style="color:red; text-align:center;">Logins</h1>
+
+<h5></h5>
+<div id="logins" >
+
+
+
+  <% @logins.each do |login| %>
+    
+    <table>
+     <th>ID</th>
+     <th>USERNAME</th>
+     <th>PASSWORD</th>
+     <th>SHOW MORE</th>
+    </tr>
+    <td><%=login.id%></td>
+    <td><%= login.username  %></td>
+    <td><%= login.password %></td>
+    <td><%= link_to "DISPLAY", login %></td>
+    </tr>
+    </table>
+  <% end %>
+</div>
+<div id="edit">
+<%= link_to "New login", new_login_path %></div>
